@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+<nav> 
+    <img src="img/Logo.png" alt="Een groen logo">
+
+    <a href="/Eindopdracht/index.html">Homepage</a>
+    <a href="/Eindopdracht/contact.html">Contact</a>
+    <a href="#link1">Header</a>
+    <a href="#link2">Recommendaties</a>
+    <a href="#link3">Algemene voorwaarden</a>
+
+</nav>
+
+
+
+    <section class="forms">
+    <form>
+
+            <div class="form">
+                <h4 id="form">Vragenlijst</h4>
+
+                <div class="formfield-name">
+                    <div class="formfield-text">
+                        <label for="name">Naam</label>
+                        <input type="text" id="name" name="name" placeholder="Voornaam" required="">
+                    </div>
+                    <div class="formfield-text">
+                        <label for="lastname">Achternaam</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Achternaam" required="">
+                    </div>
+                </div>
+
+                <div class="formfield-text">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required="">
+                </div>
+
+                <div class="formfield-name">
+                    <div class="formfield-text">
+                        <label for="city">Woonplaats</label>
+                        <input type="text" id="city" name="city" placeholder="Woonplaats" required="">
+                    </div>
+                    <div class="formfield-text">
+                        <label for="birthdate">Datum</label>
+                        <input type="date" id="birthdate" name="birthdate" required="">
+                    </div>
+                </div>
+
+                <div class="formfield-text">
+                    <label for="docent">Onderwerp</label>
+                    <select id="send-to" name="send-to" required="">
+                        <option value="">Kies een onderwerp...</option>
+                        <option value="0">Overig</option>
+                        <option value="1">Amerika</option>
+                        <option value="2">Center Parcs</option>
+                        <option value="3">Italië</option>
+                    </select>
+                </div>
+
+                <div class="formfield-text">
+                    <label for="question">Jouw vraag</label>
+                    <textarea name="question" id="question" cols="30" placeholder="Wat is je vraag?"
+                        rows="10"></textarea>
+                </div>
+
+                <div class="formfield-text">
+                    <label for="category">Wil je vaker vakantie tips?</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="category" name="category" value="algemeen">
+                    <label for="algemeen">Ja</label>
+                    <input type="radio" id="category" name="category" value="programmeren">
+                    <label for="programmeren">Nee</label>
+                </div>
+
+                <div class="formfield-name">
+                    <input type="checkbox" id="akkoord" name="menu" value="akkoord" required="">
+                    <label for="akkoord">Ik ga akkoord met de algemene voorwaarden</label>
+                </div>
+
+                <button type="submit">Verzenden</button>
+            </div>
+            
+        </section>
+    </form>
+<footer>
+    <div id="link3">
+        <img src="img/Logo.png" alt="Een groen logo">
+        <h7>Copyright 2023 Joël van Mourik</h7>
+    </div>
+    <div class="navigatie">
+        <a>Privacyverklaring</a>
+        <a>Algemene voorwaarden</a>
+        <a>Cookiebeleid</a>
+        <a href="/Eindopdracht/contact.html">Contact</a>
+    </div>
+</footer>
+
+
+
+</body>
+
+</html>

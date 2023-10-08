@@ -1,12 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Eindopdracht</title>
 </head>
+
 <body>
-    
+    <div class="center-container">
+
+        <nav>
+            <img src="img/Logo.png" alt="Een groen logo">
+
+            <a href="/Eindopdracht/index.html">Homepage</a>
+            <a href="/Eindopdracht/contact.html">Contact</a>
+            <a href="#link1">Header</a>
+            <a href="#link2">Recommendaties</a>
+            <a href="#link3">Algemene voorwaarden</a>
+
+        </nav>
+
+
+        <header>
+            <div id="link1">
+                <h1>Welkom bij mijn vakanties aan radingen</h1>
+                <p>Op deze website laat ik zien wat mijn favorieten vakanties waren, waarom ik ze zo leuk vind en waarom
+                    ze
+                    ook een aanrader zijn voor andere mensen</p>
+                <a class="important link" href="#link2">Recommendaties</a>
+                <a href="/Eindopdracht/contact.html">Contact</a>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="recommendation">
+                    <h2> </h2>
+
+                    <div id="link2"></div>
+                    <article class="USA">
+                        <img src="img/Amerika.jpg" alt="een foto van de golden gate bridge">
+                        <h3>Rondtrip rond amerika</h3>
+                        <img class="star" src="img/Sterren.png" alt="een foto van 5 Sterren">
+                        <p>Ik ben vorig jaar met mijn vaders kan van de family naar de west kust van Amerika gegaan en
+                            dit was echt 1 van de beste tijden die ik heb gehad. Het was niet alleen ontzettend mooi
+                            maar het was ook gewoon leuk om met zoveel mensen die trip te maken het is zeker een
+                            aanrader</p>
+                        <a href="#"> Lees meer</a>
+                    </article>
+                    <article class="park">
+                        <img src="img/centerparcs.jpg" alt="een foto van centerparcs de huttenheugte">
+                        <h4> Naar CenterParcs</h4>
+                        <img class="star" src="img/Sterren.png" alt="een foto van 5 Sterren">
+                        <p>Ik en een paar vrienden van mij hebben een traditie van gemaakt om elk jaar met elkaar op
+                            vakantie te gaan. De afgelopen 2 jaar was dit naar Center CenterParcs en dit is zo anders
+                            dan met familie naar CenterParcs gaan hoewel met family gaan ook heel erg leuk is is dit
+                            toch wel echt nog een stuk leuker, dus dit is ook zeker een aanrader.</p>
+                        <a href="#"> Lees meer</a>
+                    </article>
+
+                    <article class="italy">
+                        <img src="img/Gardameer.jpg" alt="een foto van het Gardameer.">
+                        <h5>Naar Italië</h5>
+
+                        <img class="star" src="img/Sterren.png" alt="een foto van 5 Sterren">
+
+                        <p>
+                            Ik ga al heel bijna heel mijn leven naar Italië dus ik heb er een speciaal plekje voor
+                        </p>
+                        <a href="#"> Lees meer</a>
+                    </article>
+                </div>
+            </section>
+            <section class="forms">
+                <form>
+
+
+                    <div class="form">
+                        <h6 id="form">Vragen?</h6>
+
+                        <div class="formfield-name">
+                            <div class="formfield-text">
+                                <label for="name">Naam</label>
+                                <input type="text" id="name" name="name" placeholder="Voornaam" required="">
+                            </div>
+                            <div class="formfield-text">
+                                <label for="lastname">Achternaam</label>
+                                <input type="text" id="lastname" name="lastname" placeholder="Achternaam" required="">
+                            </div>
+                        </div>
+
+                        <div class="formfield-text">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="E-mail" required="">
+                        </div>
+
+                        <div class="formfield-name">
+                            <div class="formfield-text">
+                                <label for="city">Woonplaats</label>
+                                <input type="text" id="city" name="city" placeholder="Woonplaats" required="">
+                            </div>
+                            <div class="formfield-text">
+                                <label for="birthdate">Datum</label>
+                                <input type="date" id="birthdate" name="birthdate" required="">
+                            </div>
+                        </div>
+
+                        <div class="formfield-text">
+                            <label for="docent">Onderwerp</label>
+                            <select id="send-to" name="send-to" required="">
+                                <option value="">Kies een onderwerp...</option>
+                                <option value="0">Overig</option>
+                                <option value="1">Amerika</option>
+                                <option value="2">Center Parcs</option>
+                                <option value="3">Italië</option>
+                            </select>
+                        </div>
+
+                        <div class="formfield-text">
+                            <label for="question">Jouw vraag</label>
+                            <textarea name="question" id="question" cols="30" placeholder="Wat is je vraag?"
+                                rows="10"></textarea>
+                        </div>
+
+                        <div class="formfield-text">
+                            <label for="category">Wil je vaker vakantie tips?</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="category" name="category" value="algemeen">
+                            <label for="algemeen">Ja</label>
+                            <input type="radio" id="category" name="category" value="programmeren">
+                            <label for="programmeren">Nee</label>
+                        </div>
+
+                        <div class="formfield-name">
+                            <input type="checkbox" id="akkoord" name="menu" value="akkoord" required="">
+                            <label for="akkoord">Ik ga akkoord met de algemene voorwaarden</label>
+                        </div>
+
+                        <button type="submit">Verzenden</button>
+            </section>
+            </form>
+        </main>
+
+        <footer>
+            <div id="link3">
+                <img src="img/Logo.png" alt="Een groen logo">
+                <h7>Copyright 2023 Joël van Mourik</h7>
+            </div>
+            <div class="navigatie">
+                <a>Privacyverklaring</a>
+                <a>Algemene voorwaarden</a>
+                <a>Cookiebeleid</a>
+                <a href="/Eindopdracht/contact.html">Contact</a>
+            </div>
+        </footer>
+
+
+
 </body>
+
 </html>
